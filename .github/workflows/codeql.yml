@@ -7,8 +7,8 @@ name: 'CodeQL'
 # still surface in the Security tab. If fresher results are wanted, add a
 # path-filtered `push` trigger for security-relevant sources.
 on:
-  schedule:
-    - cron: '0 3 * * *' # nightly (~03:00 UTC), staggered from the E2E nightly
+  #schedule:
+  #  - cron: '0 3 * * *' # nightly (~03:00 UTC), staggered from the E2E nightly
   workflow_dispatch:
 
 permissions:

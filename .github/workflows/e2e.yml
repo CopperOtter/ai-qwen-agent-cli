@@ -12,8 +12,8 @@ on:
     branches:
       - 'main'
       - 'feat/e2e/**'
-  schedule:
-    - cron: '0 4 * * *' # nightly full regression (~04:00 UTC), guaranteed signal
+  #schedule:
+  #  - cron: '0 4 * * *' # nightly full regression (~04:00 UTC), guaranteed signal
   workflow_dispatch:
 
 concurrency:

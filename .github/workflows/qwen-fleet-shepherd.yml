@@ -72,8 +72,8 @@ name: 'Fleet Shepherd'
 # closes, and the dashboard use CI_DEV_BOT_PAT so synced branches still
 # trigger CI and all writes carry the bot identity.
 on:
-  schedule:
-    - cron: '*/15 * * * *'
+  #schedule:
+  #  - cron: '*/15 * * * *'
   workflow_dispatch:
     inputs:
       dry_run:

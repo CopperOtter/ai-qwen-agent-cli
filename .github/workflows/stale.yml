@@ -4,8 +4,8 @@ name: 'Mark stale issues and pull requests'
 # Avoid the top of the hour to dodge GitHub's high-contention window.
 # This no longer trails the nightly release, which moved to 21:00 UTC.
 on:
-  schedule:
-    - cron: '30 0 * * *'
+  #schedule:
+  #  - cron: '30 0 * * *'
   workflow_dispatch:
 
 jobs:

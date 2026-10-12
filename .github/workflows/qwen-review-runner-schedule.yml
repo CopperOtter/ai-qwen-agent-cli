@@ -10,9 +10,9 @@ name: 'Qwen Review Runner Schedule'
 # To pause the schedule, disable this workflow.
 
 on:
-  schedule:
-    - cron: '0 9 * * *' # 17:00 Asia/Shanghai: enable reviews
-    - cron: '0 21 * * *' # 05:00 Asia/Shanghai: return to CI
+  #schedule:
+  #  - cron: '0 9 * * *' # 17:00 Asia/Shanghai: enable reviews
+  #  - cron: '0 21 * * *' # 05:00 Asia/Shanghai: return to CI
   workflow_dispatch:
     inputs:
       pool:

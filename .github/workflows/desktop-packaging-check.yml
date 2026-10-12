@@ -13,8 +13,8 @@ run-name: "Desktop packaging check (${{ inputs.qwen_code_ref || 'main' }})"
 # A dry run leaves the signing steps out (they are gated on `dry_run == false`),
 # so this does not cover macOS notarization or Windows Authenticode.
 on:
-  schedule:
-    - cron: '0 16 * * *'
+  #schedule:
+  #  - cron: '0 16 * * *'
   workflow_dispatch:
     inputs:
       qwen_code_ref:

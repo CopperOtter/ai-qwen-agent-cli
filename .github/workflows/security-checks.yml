@@ -3,9 +3,9 @@
 name: 'Security Checks'
 
 on:
-  schedule:
+  #schedule:
     # Daily at 02:30 UTC, between the monthly Scorecard and nightly CodeQL.
-    - cron: '30 2 * * *'
+    # - cron: '30 2 * * *'
   workflow_dispatch: {}
 
 permissions:
